@@ -1,6 +1,8 @@
 import React from 'react';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
+import Navbar from './Components/Navbar';
+import Projects from './Components/Projects';
 
 function App() {
   const name = "Your Name";
@@ -8,8 +10,10 @@ function App() {
   const skills = ["React", "JavaScript", "HTML", "CSS", "Git"];
   return (
     <div className="App">
-      <Home />
-      <About name={name} bio={bio} skills={skills} />
+      <Navbar />
+      <section id="home"><Home /></section>
+      <section id="about"><About name={name} bio={bio} skills={skills} /></section>
+      <section id="projects"><Projects /></section>
     </div>
   );
 }
