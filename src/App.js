@@ -3,6 +3,7 @@ import Home from './Components/Home.js';
 import About from './Components/About.js';
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
+import Certifications from './Components/Certifications';
 
 function App() {
   const name = "Your Name";
@@ -14,6 +15,7 @@ function App() {
       <section id="home"><Home /></section>
       <section id="about"><About name={name} bio={bio} skills={skills} /></section>
       <section id="projects"><Projects /></section>
+      <section id="certifications"><Certifications /></section>
     </div>
   );
 }

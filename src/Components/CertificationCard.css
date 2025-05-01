@@ -1,0 +1,23 @@
+.cert-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .cert-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .cert-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cert-card a:hover {
+    color: #0056b3;
+  }
+  
