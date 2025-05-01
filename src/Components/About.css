@@ -1,0 +1,20 @@
+.about-container {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left; /* 👈 This makes the whole block left-aligned */
+  }
+  
+  .about-container h2,
+  .about-container h3 {
+    text-align: center; /* 👈 Keep headings centered if you like */
+  }
+  
+  .about-container ul {
+    padding-left: 20px; /* Indent the list */
+    list-style-type: none;
+  }
+  
